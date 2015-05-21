@@ -100,7 +100,7 @@ if len(argv) < 2:
     exit(1)
 
 base_path = abspath(argv[1])
-port = 8000
+port = PORT_NUMBER
 if len(argv) > 2:
     port = int(argv[2])
 
