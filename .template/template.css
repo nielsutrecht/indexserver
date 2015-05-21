@@ -1,0 +1,38 @@
+#banner {
+    background-color: #01689b;
+}
+
+#banner img {
+    padding: 4px 0 4px 20px;
+}
+
+body {
+    margin: 0;
+    font-family: "RO Sans", Calibri, sans-serif;
+    color: #01689b;
+    text-align: left;
+    padding: 0 0 10px 0;
+    background-color: #fff;
+}
+
+h2 {
+    background-color: #01689b;
+    margin-bottom: 10px;
+    padding: 5px 10px;
+    color: #fff;
+}
+
+.table {
+    border: 2px solid #01689b;
+}
+
+.cell {
+    border-bottom: 1px solid #01689b;
+    border-right: 1px solid #01689b;
+}
+
+.heading {
+    padding: 6px;
+    color: #000;
+    font-weight: bolder;
+}

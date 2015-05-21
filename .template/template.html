@@ -10,17 +10,31 @@
 
     <title>Builds</title>
 
-    <link href="/.template/template.css" rel="stylesheet">
     <link href="/.template/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/.template/template.css" rel="stylesheet">
   </head>
 
     <body>
+        <div id="banner">
+            <img src="/.template/jbehave-logo.png" alt="jbehave" />
+            <div class="clear"></div>
+        </div>
         <div class="container">
-        <!-- repeat -->
-            <div class="row">
-                <a href="{href}/test.html">{text} - {time}</a>
-            </div>
+            <h2>Build index</h2>
+            <div class="container table">
+                <div class="row">
+                    <div class="col-md-3 cell heading">Branch</div>
+                    <div class="col-md-7 cell heading">Build</div>
+                    <div class="col-md-2 cell heading">Time</div>
+                </div>
+            <!-- repeat -->
+                <div class="row">
+                    <div class="col-md-3 cell"><a href="{href}/view/reports.html">{branch}</a></div>
+                    <div class="col-md-7 cell"><a href="{href}/view/reports.html">{build}</a></div>
+                    <div class="col-md-2 cell"><a href="{href}/view/reports.html">{time}</a></div>
+                </div>
         <!-- end repeat -->
+            </div>
         </div>
 
         <script src="/.template/bootstrap/js/bootstrap.min.js"></script>
